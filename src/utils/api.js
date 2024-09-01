@@ -1,6 +1,9 @@
 import axios from "axios";
 
-const API_URL = `http://localhost:4000/api/v2`;
+// const API_URL = `http://localhost:4000/api/v2`;
+// const API_URL = "https://sigaexpressnodeapi-d0eshvg2cqb4bhbn.eastus-01.azurewebsites.net";
+
+const API_URL = process.env.REACT_APP_API_URL;
 
 const TIMEOUT = 5000;
 
